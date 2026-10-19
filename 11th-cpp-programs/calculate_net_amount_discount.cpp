@@ -11,7 +11,7 @@ int main()
     if (amt > 1000)
         disc = 0.08;
     net_disc = amt * disc;
-    net_amt = amt - net_disc
+    net_amt = amt - net_disc;
     
     cout << "Net discount is: " << net_disc << endl;
     cout << "Net amount is: " << net_amt;
