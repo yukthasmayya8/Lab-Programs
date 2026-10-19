@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int sum, n, rem, n, t;
+    int sum, n, rem, t;
     cout << "Enter the number: ";
     cin >> n;
 
@@ -19,7 +19,7 @@ int main()
 
     if (sum == n)
         cout << n << " is an Amstrong number";
-    else:
+    else
         cout << n << " is not an Amstrong number";
     return 0;
 }
