@@ -9,7 +9,7 @@ int main()
 
     if (ch >= 'A' && ch <= 'Z')
         cout << ch << " is an upper case character";
-    else:
+    else
         cout << ch << " is a lower case character";
     return 0;
 }
