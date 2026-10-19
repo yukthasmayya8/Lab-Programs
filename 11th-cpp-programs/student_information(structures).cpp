@@ -16,7 +16,7 @@ int main()
     cout << "Enter the regno, student name and combination: ";
     for (i = 0; i < n; i++)
     {
-        cin >> std[i].regno >> std[i].student_name >> std[i].combination >> endl;
+        cin >> std[i].regno >> std[i].student_name >> std[i].combination;
     }
 
     cout << endl << "\t"<<"The student information" << endl;
