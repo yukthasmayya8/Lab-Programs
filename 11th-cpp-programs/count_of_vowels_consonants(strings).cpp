@@ -1,6 +1,6 @@
 #include <iostream>
-#include <string>
-#include <ctype>
+#include <cstring>
+#include <cctype>
 using namespace std;
 
 int main()
