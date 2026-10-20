@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the sum of all the rows and the sum of all the columns of a matrix separately.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -8,15 +12,15 @@ int main()
     cin >> m >> n;
     cout << "Enter the matrix elements: ";
     for (i = 0; i < m; i++)
-        for(j = 0; j < n; j++)
+        for (j = 0; j < n; j++)
             cin >> a[i][j];
-    
+
     for (i = 0; i < m; i++)
     {
         rs = 0;
         for (j = 0; j < n; j++)
             rs = rs + a[i][j];
-        cout << "The sum of " << i+1 << "row is: " << rs <<endl;
+        cout << "The sum of " << i + 1 << "row is: " << rs << endl;
     }
 
     for (i = 0; i < m; i++)
@@ -24,7 +28,7 @@ int main()
         cs = 0;
         for (j = 0; j < n; j++)
             cs = cs + a[j][i];
-        cout << "The sum of " << i+1 << "column is: " << cs <<endl;
-    }  
+        cout << "The sum of " << i + 1 << "column is: " << cs << endl;
+    }
     return 0;
 }

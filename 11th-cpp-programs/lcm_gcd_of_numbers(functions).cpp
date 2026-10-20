@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the LCM and GCD of two numbers using functions.
+*/
+
 #include <iostream>
 using namespace std;
 

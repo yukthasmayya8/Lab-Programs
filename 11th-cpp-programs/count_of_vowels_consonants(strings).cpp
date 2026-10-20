@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to count the number of vowels and consonants in a string.
+*/
+
 #include <iostream>
 #include <cstring>
 #include <cctype>
@@ -15,16 +19,18 @@ int main()
         if (isalpha(s[i]))
             switch (toupper(s[i]))
             {
-                case 'A' :
-                case 'E' :
-                case 'I' :
-                case 'O' :
-                case 'U' :  v++;
-                            break;
-                default:    c++;
-                            break;
+            case 'A':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
+                v++;
+                break;
+            default:
+                c++;
+                break;
             }
-            
+
     cout << " The  number of vowel in the string is: " << v << endl;
     cout << " The  number of constants in the string is: " << c;
     return 0;

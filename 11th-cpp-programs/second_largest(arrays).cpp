@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the second largest of 'N' numbers using arrays.
+*/
+
 #include <iostream>
 using namespace std;
 

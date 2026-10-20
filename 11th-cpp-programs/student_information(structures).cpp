@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to input the register number, name and combination of all the students in a class into a structure and output the data in a tabular manner with proper heading.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -19,7 +23,7 @@ int main()
         cin >> std[i].regno >> std[i].student_name >> std[i].combination;
     }
 
-    cout << endl
+    cout << endl;
     cout << "\t" << "The student information" << endl;
     cout << "regno\tstudent_name\tclass";
     for (i = 0; i < n; i++)

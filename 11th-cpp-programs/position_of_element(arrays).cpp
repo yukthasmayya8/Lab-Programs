@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the position of a given number in an array.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -15,12 +19,12 @@ int main()
 
     p = -1;
     for (i = 0; i < n; i++)
-            if (ele == a[i])
-            {
-                p = i;
-                break;
-            }
-            
+        if (ele == a[i])
+        {
+            p = i;
+            break;
+        }
+
     if (p >= 0)
         cout << ele << " is present in the position " << p;
     else

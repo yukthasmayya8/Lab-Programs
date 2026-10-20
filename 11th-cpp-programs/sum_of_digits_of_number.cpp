@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the sum of the digits of a given number using while statements.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -15,6 +19,6 @@ int main()
         n = n / 10;
     }
 
-    cout << "The sum of the digits of a given number is: "<< sum;
+    cout << "The sum of the digits of a given number is: " << sum;
     return 0;
 }

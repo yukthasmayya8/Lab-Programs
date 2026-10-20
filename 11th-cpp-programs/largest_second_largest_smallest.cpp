@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the largest, second largest and smallest of three numbers using simple if statements.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -21,6 +25,6 @@ int main()
 
     cout << "The largest is: " << l << endl;
     cout << "The second largest is: " << sl << endl;
-    cout << "The smallest is: "<< s;
+    cout << "The smallest is: " << s;
     return 0;
 }

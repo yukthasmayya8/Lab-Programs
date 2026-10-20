@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to input principal amount, rate of interest and time period and calculate the compound interest.
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;

@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the sum and average of 'N' numbers using arrays.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -14,8 +18,8 @@ int main()
     sum = 0;
     for (i = 0; i < n; i++)
         sum = sum + a[i];
-    avg = (float) sum / n;
-    
+    avg = (float)sum / n;
+
     cout << "The sum is: " << sum << endl;
     cout << "The average is: " << avg;
     return 0;

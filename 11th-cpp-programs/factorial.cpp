@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the factorial of a given number.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -8,8 +12,8 @@ int main()
     cin >> n;
 
     fact = 1;
-    for (i = 1 ; i <= n ; i++)
+    for (i = 1; i <= n; i++)
         fact = fact * i;
-    cout << "The factorial is: "<< fact;
+    cout << "The factorial is: " << fact;
     return 0;
 }

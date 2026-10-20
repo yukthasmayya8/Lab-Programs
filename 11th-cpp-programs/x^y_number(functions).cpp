@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find x^y using functions.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -16,10 +20,12 @@ int main()
 
 float pow(float a, int b)
 {
-    if (a == 0)  return 0;
-    else if (b == 0)  return 1;
+    if (a == 0)
+        return 0;
+    else if (b == 0)
+        return 1;
     else if (b > 0)
-        return (a * pow(a, b-1));
-    else 
-        return (1 / pow(a, -b));  
+        return (a * pow(a, b - 1));
+    else
+        return (1 / pow(a, -b));
 }

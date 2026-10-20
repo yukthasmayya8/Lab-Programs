@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to check whether a given string is a palindrome or not.
+*/
+
 #include <iostream>
 #include <cstring>
 using namespace std;

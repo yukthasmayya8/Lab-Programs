@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to input a character and to find out whether it is an upper case or lower case character.
+*/
+
 #include <iostream>
 using namespace std;
 

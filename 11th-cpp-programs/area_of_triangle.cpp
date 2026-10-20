@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to find the area of a triangle of given three sides.
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;

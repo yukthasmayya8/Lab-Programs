@@ -1,3 +1,6 @@
+/*
+    Write a C++ Program to find the sum of two compatible matrices.
+*/
 
 #include <iostream>
 #include <iomanip>

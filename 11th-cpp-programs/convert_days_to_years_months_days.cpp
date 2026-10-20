@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to convert the number of days into years, months and days.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -10,10 +14,10 @@ int main()
     y = td / 365;
     td = td % 365;
     m = td / 30;
-    d = td % 30; 
-    
+    d = td % 30;
+
     cout << "The number of years is: " << y << endl;
     cout << "The number of months is: " << m << endl;
-    cout << "The number of days is: "<< d;
+    cout << "The number of days is: " << d;
     return 0;
 }

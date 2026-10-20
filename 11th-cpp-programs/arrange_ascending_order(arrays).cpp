@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to arrange a list of numbers in ascending order using arrays.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -12,12 +16,12 @@ int main()
         cin >> a[i];
 
     for (i = 1; i < n; i++)
-        for (j = 0; j < n-1; j++)
-            if (a[j] > a[j+1])
+        for (j = 0; j < n - 1; j++)
+            if (a[j] > a[j + 1])
             {
                 t = a[j];
-                a[j] = a[j+1];
-                a[j+1] = t;
+                a[j] = a[j + 1];
+                a[j + 1] = t;
             }
 
     cout << "The elements after sorting: " << setw(4);

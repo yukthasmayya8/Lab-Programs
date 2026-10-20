@@ -1,3 +1,7 @@
+/*
+    Write a C++ Program to check whether a given matrix is a scalar or not.
+*/
+
 #include <iostream>
 using namespace std;
 
