@@ -12,7 +12,7 @@ int main()
     a = pi * r * r;
     c = 2 * pi * r;
 
-    cout << "The area of circle is: " << a;
+    cout << "The area of circle is: " << a << endl;
     cout << "The circumference of circle is: " << c;
     return 0;
 }

@@ -13,9 +13,9 @@ int main()
         l = b;
     if (c > l)
         l = c;
-    if (b > s)
+    if (b < s)
         s = b;
-    if (c > s)
+    if (c < s)
         s = c;
     sl = (a + b + c) - (s + l);
 

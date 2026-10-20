@@ -19,7 +19,8 @@ int main()
         cin >> std[i].regno >> std[i].student_name >> std[i].combination;
     }
 
-    cout << endl << "\t"<<"The student information" << endl;
+    cout << endl
+    cout << "\t" << "The student information" << endl;
     cout << "regno\tstudent_name\tclass";
     for (i = 0; i < n; i++)
     {
@@ -27,4 +28,3 @@ int main()
     }
     return 0;
 }
-

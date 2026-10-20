@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     int a[10][10], i, j, n, m, rs, cs;
-    float avg;
     cout << "Enter the order of matrix: ";
     cin >> m >> n;
     cout << "Enter the matrix elements: ";

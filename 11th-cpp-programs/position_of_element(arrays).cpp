@@ -17,7 +17,7 @@ int main()
     for (i = 0; i < n; i++)
             if (ele == a[i])
             {
-                p = a[i];
+                p = i;
                 break;
             }
             
