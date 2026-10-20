@@ -21,3 +21,14 @@ int main()
     cout << "Net amount is: " << net_amt;
     return 0;
 }
+
+/*
+        Output:
+            Enter the amount: 1500
+            Net discount is: 120
+            Net amount is: 1380
+
+            Enter the amount: 800
+            Net discount is: 0
+            Net amount is: 800
+*/

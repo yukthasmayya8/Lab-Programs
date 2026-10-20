@@ -17,3 +17,12 @@ int main()
         cout << ch << " is a lower case character";
     return 0;
 }
+
+/*
+    Output:
+        Enter a character: A
+        A is an upper case character
+
+        Enter a character: a
+        a is a lower case character
+*/

@@ -28,3 +28,11 @@ int main()
     cout << "The smallest is: " << s;
     return 0;
 }
+
+/*
+    Output:
+        Enter three values: 10 20 30
+        The largest is: 30
+        The second largest is: 20
+        The smallest is: 10
+*/

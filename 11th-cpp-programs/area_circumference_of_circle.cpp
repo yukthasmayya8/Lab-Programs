@@ -20,3 +20,10 @@ int main()
     cout << "The circumference of circle is: " << c;
     return 0;
 }
+
+/*
+    Output:
+        Enter the radius: 5
+        The area of circle is: 78.550003
+        The circumference of circle is: 31.42
+*/

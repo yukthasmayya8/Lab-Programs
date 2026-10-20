@@ -32,3 +32,17 @@ int main()
     }
     return 0;
 }
+
+/*
+    Output:
+        Enter the number of students: 5
+        Enter the regno, student name and combination: 101 Shrunga PCMCs 102 Nishitha PCMB 103 Teddy PCMB 104 Teddu PCMB 105 Visha PCMS
+
+        The student information
+        regno   student_name    class
+        101     Shrunga         PCMCs
+        102     Nishitha        PCMB
+        103     Teddy           PCMB
+        104     Teddu           PCMB
+        105     Visha           PCMS
+*/

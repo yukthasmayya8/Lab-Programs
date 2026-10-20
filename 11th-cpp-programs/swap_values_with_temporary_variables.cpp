@@ -19,3 +19,9 @@ int main()
 
     return 0;
 }
+
+/*
+    Output:
+        Enter two values: 10 20
+        Values after interchanging: a = 20 and b = 10
+*/

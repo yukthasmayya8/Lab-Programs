@@ -24,3 +24,11 @@ int main()
     cout << "The average is: " << avg;
     return 0;
 }
+
+/*
+    Output:
+        Enter the number of elements: 5
+        Enter the array elements: 10 20 30 40 50
+        The sum is: 150
+        The average is: 30
+*/

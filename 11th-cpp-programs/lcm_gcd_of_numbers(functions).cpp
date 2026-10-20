@@ -30,3 +30,10 @@ int gcd(int m, int n)
     }
     return (m);
 }
+
+/*
+    Output:
+        Enter two numbers: 12 18
+        The GCD is: 6
+        The LCM is: 36
+*/

@@ -20,7 +20,7 @@ int main()
         rs = 0;
         for (j = 0; j < n; j++)
             rs = rs + a[i][j];
-        cout << "The sum of " << i + 1 << "row is: " << rs << endl;
+        cout << "The sum of " << i + 1 << " row is: " << rs << endl;
     }
 
     for (i = 0; i < m; i++)
@@ -28,7 +28,17 @@ int main()
         cs = 0;
         for (j = 0; j < n; j++)
             cs = cs + a[j][i];
-        cout << "The sum of " << i + 1 << "column is: " << cs << endl;
+        cout << "The sum of " << i + 1 << " column is: " << cs << endl;
     }
     return 0;
 }
+
+/*
+    Output:
+        Enter the order of matrix: 2 2
+        Enter the matrix elements: 4 5 1 2
+        The sum of 1 row is: 9
+        The sum of 2 row is: 3
+        The sum of 1 column is: 5
+        The sum of 2 column is: 7
+*/

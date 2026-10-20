@@ -17,3 +17,9 @@ int main()
     cout << "The factorial is: " << fact;
     return 0;
 }
+
+/*
+    Output:
+        Enter the number: 5
+        The factorial is: 120
+*/

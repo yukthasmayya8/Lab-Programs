@@ -24,3 +24,9 @@ int main()
     }
     return 0;
 }
+
+/*
+    Output:
+        Enter the number: 4
+        The fibonacci numbers are: 0   1   1   2
+*/

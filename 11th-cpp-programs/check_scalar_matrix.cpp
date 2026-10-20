@@ -50,3 +50,18 @@ int main()
 
     return 0;
 }
+
+/*
+        Output:
+            Enter the order of matrix: 2 2
+            Enter the matrix elements: 2 0 0 2
+            It is a square and a scalar matrix
+
+            Enter the order of matrix: 2 2
+            Enter the matrix elements: 1 2 3 4
+            It is a square and not a scalar matrix
+
+            Enter the order of matrix: 2 3
+            Enter the matrix elements: 1 2 3 4 5 6
+            It is a rectangular matrix
+*/

@@ -49,3 +49,18 @@ int main()
 
     return 0;
 }
+
+/*
+    Output:
+        Enter the order of first matrix: 2 2
+        Enter the order of second matrix: 2 2
+        Enter the first matrix elements: 1 2 3 4
+        Enter the second matrix elements: 5 6 7 8
+        The sum matrix is:
+           6           8
+           10          12
+
+        Enter the order of first matrix: 2 2
+        Enter the order of second matrix: 2 3
+        Matrices are not compatible
+*/

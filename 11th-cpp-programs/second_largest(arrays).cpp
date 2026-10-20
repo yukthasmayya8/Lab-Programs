@@ -44,3 +44,11 @@ int main()
     cout << "The second largest is: " << sl;
     return 0;
 }
+
+/*
+    Output:
+        Enter the number of elements: 5
+        Enter the array elements: 10 20 30 40 50
+        The largest is: 50
+        The second largest is: 40
+*/

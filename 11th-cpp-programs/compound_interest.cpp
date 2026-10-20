@@ -17,3 +17,9 @@ int main()
     cout << "The compound interest is: " << CI;
     return 0;
 }
+
+/*
+    Output:
+        Enter the principal amount, rate of interest, timeperiod: 2000 2 3
+        The compound interest is: 122.416
+*/

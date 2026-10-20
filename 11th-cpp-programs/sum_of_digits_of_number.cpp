@@ -22,3 +22,9 @@ int main()
     cout << "The sum of the digits of a given number is: " << sum;
     return 0;
 }
+
+/*
+    Output:
+        Enter the number: 123
+        The sum of the digits of a given number is: 6
+*/

@@ -31,3 +31,16 @@ int main()
         cout << ele << " does not exist";
     return 0;
 }
+
+/*
+    Output:
+        Enter the number of elements: 5
+        Enter the array elements: 10 20 30 40 50
+        Enter the search elements: 30
+        30 is present in the position 2
+
+        Enter the number of elements: 5
+        Enter the array elements: 10 20 30 40 50
+        Enter the search elements: 60
+        60 does not exist
+*/

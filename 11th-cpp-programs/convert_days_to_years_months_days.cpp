@@ -21,3 +21,10 @@ int main()
     cout << "The number of days is: " << d;
     return 0;
 }
+
+/* Output:
+    Enter the number of days: 400
+    The number of years is: 1
+    The number of months is: 1
+    The number of days is: 5
+*/

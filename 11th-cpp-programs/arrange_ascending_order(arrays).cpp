@@ -3,12 +3,12 @@
 */
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
 {
-    int a[10], i, n, sum;
-    float avg;
+    int a[10], i, n, j, t;
     cout << "Enter the number of elements: ";
     cin >> n;
     cout << "Enter the array elements: ";
@@ -29,3 +29,10 @@ int main()
         cout << setw(4) << a[i];
     return 0;
 }
+
+/*
+        Output:
+            Enter the number of elements: 5
+            Enter the array elements: 5 4 3 2 1
+            The elements after sorting:    1    2    3    4    5
+*/

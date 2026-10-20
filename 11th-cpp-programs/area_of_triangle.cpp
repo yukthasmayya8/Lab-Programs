@@ -17,3 +17,9 @@ int main()
     cout << "The area of the triangle is: " << A;
     return 0;
 }
+
+/*
+    Output:
+        Enter the three sides of the triangle: 2 2 2
+        The area of the triangle is: 1.782051
+*/

@@ -14,8 +14,7 @@ int main()
         rem = t % 10;
         sum = sum + rem * rem * rem;
         t = t / 10;
-    }
-    while (t != 0);
+    } while (t != 0);
 
     if (sum == n)
         cout << n << " is an Amstrong number";
@@ -23,3 +22,12 @@ int main()
         cout << n << " is not an Amstrong number";
     return 0;
 }
+
+/*
+        Output:
+            Enter the number: 153
+            153 is an Amstrong number
+
+            Enter the number: 123
+            123 is not an Amstrong number
+*/

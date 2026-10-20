@@ -35,3 +35,10 @@ int main()
     cout << " The  number of constants in the string is: " << c;
     return 0;
 }
+
+/*
+    Output:
+        Enter the string: Vidyodaya
+        The  number of vowel in the string is: 4
+        The  number of constants in the string is: 5
+*/

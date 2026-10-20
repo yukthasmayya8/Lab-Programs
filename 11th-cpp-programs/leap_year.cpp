@@ -18,3 +18,12 @@ int main()
         cout << y << " is not a leap year";
     return 0;
 }
+
+/*
+    Output:
+        Enter the year: 2020
+        2020 is a leap year
+
+        Enter the year: 2021
+        2021 is not a leap year
+*/
