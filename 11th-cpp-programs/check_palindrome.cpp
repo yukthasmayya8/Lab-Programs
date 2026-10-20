@@ -8,15 +8,23 @@ using namespace std;
 
 int main()
 {
-    char s[100], r[100];
+    char s[100], rev[100];
+    int i, len;
 
     cout << "Enter the string: ";
     cin.getline(s, 100);
 
-    strcpy(r, s);
-    strrev(r);
+    strcpy(rev, s);
 
-    if (strcmp(s, r) == 0)
+    len = strlen(s);
+    for (i = 0; i < len / 2; i++)
+    {
+        char temp = rev[i];
+        rev[i] = rev[len - 1 - i];
+        rev[len - 1 - i] = temp;
+    }
+
+    if (strcmp(s, rev) == 0)
         cout << s << " is a palindrome string";
     else
         cout << s << " is not a palindrome string";
