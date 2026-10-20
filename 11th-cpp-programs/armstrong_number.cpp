@@ -1,3 +1,7 @@
+/*
+   Write a C++ program to check whether the given number is armstrong number or not.
+*/
+
 #include <iostream>
 using namespace std;
 
