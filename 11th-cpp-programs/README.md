@@ -6,7 +6,7 @@ A curated collection of foundational C++ programs developed during 11th grade Co
 
 ## About
 
-This repository contains classic beginner-level C++ exercises commonly taught in Class 11 curricula. Each program focuses on a specific concept and is implemented using standard C++ features with simple console-based input/output.
+This repository contains classic beginner-level C++ exercises commonly taught in Class 11 curricula. Each program focuses on a specific concept and is implemented using standard C++ features with simple, easy-to-understand logic.
 
 ---
 
@@ -14,9 +14,9 @@ This repository contains classic beginner-level C++ exercises commonly taught in
 
 | File | Description |
 |------|-------------|
-| `amstrong_number.cpp` | Checks whether a given number is an Armstrong number |
 | `area_circumference_of_circle.cpp` | Calculates the area and circumference of a circle |
 | `area_of_triangle.cpp` | Calculates the area of a triangle |
+| `armstrong_number.cpp` | Checks whether a given number is an Armstrong number |
 | `arrange_ascending_order(arrays).cpp` | Sorts an array of numbers in ascending order |
 | `calculate_net_amount_discount.cpp` | Calculates the net amount after applying a discount |
 | `check_palindrome.cpp` | Checks if a given string is a palindrome |
@@ -39,13 +39,14 @@ This repository contains classic beginner-level C++ exercises commonly taught in
 | `swap_values_with_temporary_variables.cpp` | Swaps two values using a temporary variable |
 | `swap_values_without_temporary_variables.cpp` | Swaps two values without using a temporary variable |
 | `uppercase_lowercase_character.cpp` | Converts a character between uppercase and lowercase |
-| `x^y_number(functions).cpp` | Calculates \( x^y \) using a user-defined function |
+| `x^y_number(functions).cpp` | Calculates \(x^y\) using a user-defined function |
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
+
 - A C++ compiler (g++, clang++, or MSVC)
 
 ### Compilation & Execution
@@ -56,3 +57,4 @@ g++ filename.cpp -o filename
 
 # Run
 ./filename
+```
