@@ -1,0 +1,65 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.gch
+*.pch
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Compiled / temporary
+*.tmp
+*.temp
+*.log
+*.swp
+*\~
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Optional: if you later add Node or other tools
+node_modules/
